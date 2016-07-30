@@ -1,9 +1,15 @@
 (function() {
   "use strict";
 
-  var viewer = new Cesium.Viewer("cesium");
+  var viewer = new Cesium.Viewer("cesiumContainer", {
+    baseLayerPicker : true,  //デフォルトのレイヤ切り替えウィジェットをオフにする
+    timeline : false,         //デフォルトのタイムラインウィジェットをオフにする
+    animation : false         //デフォルトのアニメーションウィジェットをオフにする
+  });
 
-  viewer.dataSources.add(Cesium.KmlDataSource.load("tmu_crosswordrally.kml"));
+  //var viewer = new Cesium.Viewer("cesium");
+
+  viewer.dataSources.add(Cesium.KmlDataSource.load("kml/tmu_crosswordrally.kmz"));
 
   viewer.camera.setView({
   destination: Cesium.Cartesian3.fromDegrees(138, 30, 3000000),
