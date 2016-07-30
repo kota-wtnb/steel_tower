@@ -14,6 +14,28 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
+	<Style id="sh_track0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
+			</Icon>
+			<hotSpot x="32" y="32" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_track">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<StyleMap id="msn_track">
 		<Pair>
 			<key>normal</key>
@@ -21,10 +43,20 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
+			<styleUrl>#sh_track0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_track0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_track0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
 			<styleUrl>#sh_track</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_track">
+	<Style id="sn_track0">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -47,11 +79,11 @@
 			<range>54061.72980476745</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_track0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>139.40805,35.55784999999999,250</coordinates>
+			<coordinates>139.407378,35.55738,250</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -70,7 +102,7 @@
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>139.4126336452734,35.55472603384369,250</coordinates>
+			<coordinates>139.402755,35.55589722222222,250</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -85,7 +117,7 @@
 			<range>3371.034177235523</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_track0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -104,7 +136,7 @@
 			<range>1553.453124731282</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_track0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -123,7 +155,7 @@
 			<range>1462.818207732478</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_track0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -142,7 +174,7 @@
 			<range>1462.818189885564</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_track0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -161,7 +193,7 @@
 			<range>928.1543104665443</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_track0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -180,7 +212,7 @@
 			<range>1067.986164404557</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_track0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -199,7 +231,7 @@
 			<range>1300.05008338149</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_track0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -218,7 +250,7 @@
 			<range>2248.608524773088</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_track0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -237,7 +269,7 @@
 			<range>2249.139255757078</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_track0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -256,7 +288,7 @@
 			<range>2260.96334372102</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_track0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -275,7 +307,7 @@
 			<range>2260.949081728824</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_track0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -294,7 +326,7 @@
 			<range>2260.949081728824</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_track0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -313,7 +345,7 @@
 			<range>2260.949081728824</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_track0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -332,7 +364,7 @@
 			<range>2150.902793856786</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_track0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -351,7 +383,7 @@
 			<range>2163.387260855285</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_track0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -370,7 +402,7 @@
 			<range>2187.798244460457</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_track0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -389,7 +421,7 @@
 			<range>2163.387971070582</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_track0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -408,7 +440,7 @@
 			<range>2163.387971070582</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_track0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
