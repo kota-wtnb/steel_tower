@@ -9,7 +9,7 @@
 
   //var viewer = new Cesium.Viewer("cesium");
 
-  viewer.dataSources.add(Cesium.KmlDataSource.load("kml/tmu_crosswordrally.kmz"));
+  viewer.dataSources.add(Cesium.KmlDataSource.load("kml/tmu_crosswordrally.kml"));
 
   viewer.camera.setView({
   destination: Cesium.Cartesian3.fromDegrees(138, 30, 3000000),
