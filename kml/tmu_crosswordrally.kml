@@ -584,7 +584,7 @@
 				<z>1</z>
 			</Scale>
 			<Link>
-				<href>../3dobj/example3.dae</href>
+				<href>./example3.dae</href>
 			</Link>
 			<ResourceMap>
 			</ResourceMap>
