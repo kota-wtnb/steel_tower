@@ -14,7 +14,7 @@
   var model = scene.primitives.add(Cesium.Model.fromGltf({
       url : './example4.gltf',
       modelMatrix : modelMatrix,
-      scale : 200.0
+      scale : 20.0
   }));
   //var viewer = new Cesium.Viewer("cesium");
 
