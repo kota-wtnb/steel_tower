@@ -1,7 +1,7 @@
 (function() {
   "use strict";
 
-  var viewer = new Cesium.Viewer("cesiumContainer", {
+  var viewer = new Cesium.Viewer("cesium", {
     baseLayerPicker : true,  //デフォルトのレイヤ切り替えウィジェットをオフにする
     timeline : false,         //デフォルトのタイムラインウィジェットをオフにする
     animation : false         //デフォルトのアニメーションウィジェットをオフにする
