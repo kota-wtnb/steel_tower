@@ -17,7 +17,15 @@
       scale : 10.0
   }));
   //var viewer = new Cesium.Viewer("cesium");
+  var scene = viewer.scene;
 
+  var modelMatrix = Cesium.Transforms.eastNorthUpToFixedFrame(
+      Cesium.Cartesian3.fromDegrees( 139.41856384277344, 30.55541242883035, 0.0));
+  var model = scene.primitives.add(Cesium.Model.fromGltf({
+      url : './steel_tower.gltf',
+      modelMatrix : modelMatrix,
+      scale : 10.0
+  }));
   viewer.dataSources.add(Cesium.KmlDataSource.load("kml/tmu_crosswordrally.kml"));
 
   viewer.camera.setView({
