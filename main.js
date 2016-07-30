@@ -10,7 +10,7 @@
   var scene = viewer.scene;
 
   var modelMatrix = Cesium.Transforms.eastNorthUpToFixedFrame(
-      Cesium.Cartesian3.fromDegrees(-35.55555333333334, 139.423645, 0.0));
+      Cesium.Cartesian3.fromDegrees(-35.55555333333334, 139.41918305, 0.0));
   var model = scene.primitives.add(Cesium.Model.fromGltf({
       url : './example4.gltf',
       modelMatrix : modelMatrix,
