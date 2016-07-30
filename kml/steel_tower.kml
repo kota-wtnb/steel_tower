@@ -51,7 +51,7 @@
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>139.40805,35.55784999999999,500</coordinates>
+			<coordinates>139.40805,35.55784999999999,250</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -70,7 +70,7 @@
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>139.4126336452734,35.55472603384369,500</coordinates>
+			<coordinates>139.4126336452734,35.55472603384369,250</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -89,7 +89,7 @@
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>139.4071805555556,35.558445,500</coordinates>
+			<coordinates>139.4071805555556,35.558445,250</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -108,7 +108,7 @@
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>139.40898,35.558605,500</coordinates>
+			<coordinates>139.40898,35.558605,250</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -127,7 +127,7 @@
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>139.412046,35.556688,500</coordinates>
+			<coordinates>139.412046,35.556688,250</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -146,7 +146,7 @@
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>139.412155,35.55672,500</coordinates>
+			<coordinates>139.412155,35.55672,250</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -165,7 +165,7 @@
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>139.414245,35.556945,500</coordinates>
+			<coordinates>139.414245,35.556945,250</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -184,7 +184,7 @@
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>139.417175,35.556503,500</coordinates>
+			<coordinates>139.417175,35.556503,250</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -203,7 +203,7 @@
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>139.420471,35.555961,500</coordinates>
+			<coordinates>139.420471,35.555961,250</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -222,7 +222,7 @@
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>139.423645,35.555553,500</coordinates>
+			<coordinates>139.423645,35.555553,250</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -241,7 +241,7 @@
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>139.427566,35.55325,500</coordinates>
+			<coordinates>139.427566,35.55325,250</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -260,7 +260,7 @@
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>139.428361,35.55103,500</coordinates>
+			<coordinates>139.428361,35.55103,250</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -279,7 +279,7 @@
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>139.430803,35.549225,500</coordinates>
+			<coordinates>139.430803,35.549225,250</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -298,7 +298,7 @@
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>139.431245,35.549308,500</coordinates>
+			<coordinates>139.431245,35.549308,250</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -317,7 +317,7 @@
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>139.433716,35.547771,500</coordinates>
+			<coordinates>139.433716,35.547771,250</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -336,7 +336,7 @@
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>139.434646,35.546975,500</coordinates>
+			<coordinates>139.434646,35.546975,250</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -355,7 +355,7 @@
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>139.435836,35.546805,500</coordinates>
+			<coordinates>139.435836,35.546805,250</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -374,7 +374,7 @@
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>139.437971,35.545496,500</coordinates>
+			<coordinates>139.437971,35.545496,250</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -393,7 +393,7 @@
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>139.439591,35.543461,500</coordinates>
+			<coordinates>139.439591,35.543461,250</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -412,7 +412,7 @@
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>139.439591,35.543461,500</coordinates>
+			<coordinates>139.439591,35.543461,250</coordinates>
 		</Point>
 	</Placemark>
 </Document>
