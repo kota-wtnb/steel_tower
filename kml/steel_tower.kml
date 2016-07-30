@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>steel_tower.kml</name>
+	<Style id="sh_track">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
+			</Icon>
+			<hotSpot x="32" y="32" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_track">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_track">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_track</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_track</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>#2</name>
+		<description><![CDATA[<img src="https://lh3.googleusercontent.com/Wj9ZVG_EaPc90ZUOJwpXlRyO2iNtSeCiQjwecmZD3J1nL1Im-eu8ZhRptCvXLg3uDX1GiQ_CyyjFckH8okElu7xoCcmlp1ccrvPMbTmJsUubj56bJBWAeQfKPb6JpIn0hHR246Wa8tko2cPZHnF97rhCTIQBMYgxhZBOBtFGmUwhC-aBHgdJ9fdDbWAtmOoSFiZ2bbejR-TzobpP8kNhmadisuk_j570cqwyy51qNc3QGbKwXt7Esd42NYVlNx2UYaRkynfCUCuUBoDb7WHTquyYe3dIlwyAe3Ks2yl8cMaf7WJUVn1Z4--c1h-fmZPiACRge7B-LnBjZk1fkGgSytu6fgHL_GvXygVuw23VXWITTh-2X6u1wop-xFhpjHblSgp53Iw6cF-BVbMDZzH_OiArSCDLoFx_xa4wf-lJ5YFHCV5QWUPs7bFg7Mj3EESo3aK6-O0Vj6ry3aG4wZsuU5YMBxdTnVQg3_ReuyWGLBq2OtpeWOl_2zhJN5IY8VDIEav8W7oKKxsQ2vy8T0sSnXXu3yi29EB04YP79N351jxEvjSliQFf0qYfYfj6wxaIh7L4w7o_E_b4vZW2vfyXSR6moBfO5SQ=w992-h1322-no"/>]]></description>
+		<LookAt>
+			<longitude>139.7253628710917</longitude>
+			<latitude>35.98249002401312</latitude>
+			<altitude>0</altitude>
+			<heading>0.9684663537381536</heading>
+			<tilt>0</tilt>
+			<range>54061.72980476745</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_track</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.40805,35.55784999999999,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
