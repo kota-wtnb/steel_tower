@@ -6,7 +6,16 @@
     timeline : false,         //デフォルトのタイムラインウィジェットをオフにする
     animation : false         //デフォルトのアニメーションウィジェットをオフにする
   });
+  
+  var scene = viewer.scene;
 
+  var modelMatrix = Cesium.Transforms.eastNorthUpToFixedFrame(
+      Cesium.Cartesian3.fromDegrees(-75.62898254394531, 40.02804946899414, 0.0));
+  var model = scene.primitives.add(Cesium.Model.fromGltf({
+      url : './example3.glb',
+      modelMatrix : modelMatrix,
+      scale : 200.0
+  }));
   //var viewer = new Cesium.Viewer("cesium");
 
   viewer.dataSources.add(Cesium.KmlDataSource.load("kml/tmu_crosswordrally.kml"));
