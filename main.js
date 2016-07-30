@@ -214,10 +214,10 @@
   viewer.dataSources.add(Cesium.KmlDataSource.load("kml/steel_tower.kml"));
 
   viewer.camera.setView({
-  destination: Cesium.Cartesian3.fromDegrees(139.402755, 35.555896, 3000),
+  destination: Cesium.Cartesian3.fromDegrees(139.4292911352063, 35.5523955220937, 1284.174390435971),
   orientation: {
-    heading: 0, // 水平方向の回転度（ラジアン）
-    pitch: -1.3, // 垂直方向の回転度（ラジアン） 上を見上げたり下を見下ろしたり
+    heading: -77.04959710877468, // 水平方向の回転度（ラジアン）
+    pitch: 82.15755358720511, // 垂直方向の回転度（ラジアン） 上を見上げたり下を見下ろしたり
     roll: 0
   }
 });

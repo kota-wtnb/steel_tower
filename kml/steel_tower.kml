@@ -3,6 +3,15 @@
 <Document>
 	<name>steel_tower.kml</name>
 	<open>1</open>
+	<LookAt>
+		<longitude>139.4292911352063</longitude>
+		<latitude>35.5523955220937</latitude>
+		<altitude>0</altitude>
+		<heading>-77.04959710877468</heading>
+		<tilt>82.15755358720511</tilt>
+		<range>1284.174390435971</range>
+		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+	</LookAt>
 	<Style id="sh_track">
 		<IconStyle>
 			<scale>1.4</scale>
