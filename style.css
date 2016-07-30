@@ -9,3 +9,13 @@ body {
   right: 0;
   bottom: 0;
 }
+
+#logo{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+#logo img{
+  width: 472px;
+}
