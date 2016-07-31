@@ -12,61 +12,19 @@
 		<range>1284.174390435971</range>
 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 	</LookAt>
-	<Style id="sh_track">
-		<IconStyle>
-			<scale>0.933333</scale>
-			<Icon>
-				<href>./icon.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
 	<Style id="sh_icon">
 		<IconStyle>
-			<scale>1.4</scale>
+			<scale>0.583333</scale>
 			<Icon>
 				<href>./icon.png</href>
 			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_track">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_track</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_track</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_track">
-		<IconStyle>
-			<scale>0.8</scale>
-			<Icon>
-				<href>./icon.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 		<ListStyle>
 		</ListStyle>
 	</Style>
 	<Style id="sn_icon">
 		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>./icon.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_icon0">
-		<IconStyle>
-			<scale>0.933333</scale>
+			<scale>0.5</scale>
 			<Icon>
 				<href>./icon.png</href>
 			</Icon>
@@ -81,22 +39,42 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_icon0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
 			<styleUrl>#sh_icon0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_icon0">
+	<Style id="sh_icon0">
 		<IconStyle>
-			<scale>0.8</scale>
+			<scale>0.583333</scale>
+			<Icon>
+				<href>./icon.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_icon0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_icon1">
+		<IconStyle>
+			<scale>0.583333</scale>
 			<Icon>
 				<href>./icon.png</href>
 			</Icon>
@@ -116,7 +94,7 @@
 			<range>54061.72980476745</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_icon1</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -135,7 +113,7 @@
 			<range>1633.674291412757</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_icon1</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -154,7 +132,7 @@
 			<range>3371.034177235523</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_icon1</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
