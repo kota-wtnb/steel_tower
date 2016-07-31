@@ -14,22 +14,21 @@
 	</LookAt>
 	<Style id="sh_track">
 		<IconStyle>
-			<scale>1.4</scale>
+			<scale>0.933333</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
+				<href>/Users/watanabekota/steel_tower/kml/icon.png</href>
 			</Icon>
-			<hotSpot x="32" y="32" xunits="pixels" yunits="pixels"/>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sn_track">
+	<Style id="sh_icon">
 		<IconStyle>
-			<scale>1.2</scale>
+			<scale>1.4</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
+				<href>/Users/watanabekota/steel_tower/kml/icon.png</href>
 			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<ListStyle>
 		</ListStyle>
@@ -44,6 +43,67 @@
 			<styleUrl>#sh_track</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_track">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>/Users/watanabekota/steel_tower/kml/icon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_icon">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>/Users/watanabekota/steel_tower/kml/icon.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_icon0">
+		<IconStyle>
+			<scale>0.933333</scale>
+			<Icon>
+				<href>/Users/watanabekota/steel_tower/kml/icon.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_icon">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_icon0">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>/Users/watanabekota/steel_tower/kml/icon.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Placemark>
 		<name>#2</name>
 		<description><![CDATA[<p>2016/07/29</p><img src="https://lh3.googleusercontent.com/WlNB8klRzz1zCfM4wyJd0I8B0uzGX0426yI4dJQq7HkuZFqX5iSGkYB-1326NPaaW6-5JWCvjI2TcGaQLYt7HeeKbrNPfXyEAZvkTJMFRJUKGSvgAjVSqkuDYav4cnW5I2iNCe3dAe7nS2jIcEfbS88e1W-txh1Hv-iMqcJUUT7kjpasqIIiUOrHDvopRoYa-zfcka-ohDlvCi-rWncB5y4PtAJc_hxxU9IvU_x1B2vXth7ZGmMdESKsBQ9PNhzaiY7WvYLl4u8EbXRMF7LmdmDwNTNaMnRNObEUlz8xN0bhJATYpucn5iSaZ8aHapTdznz2gmzn9gCw8qb4o7bJz7M8aR5YltBcs3Vlm4mCyn33TAtLBN81658hKuE6DBUmEoMhZvPUxBOxByei6U22_XemWpepW6H3NKnTUCOOHkvSKHG8qAU9qwMHOgv8iM793GCoDBZS1yOS5Sz8-R7MQ477iwUVn6vWH7Pjr2R7Lanzxb6mxrMoVTKUdSl0UFBeDK6qqEGTYVWz_hyPHHrmDcaK8mQiqTBIjxa38ka9NQ-Mu_NDXm8zZ7_QeLI8Mh3yz9rFZ4Skv90k9a5Z08pVbM22USbj4ho=w400-h533-no"/>]]></description>
@@ -65,8 +125,7 @@
 	</Placemark>
 	<Placemark>
 		<name>#1</name>
-		<description><![CDATA[<p>2016/07/29 ひまわり畑</p><img src="https://lh3.googleusercontent.com/_FRS6IEAhHm90b62qhwHjOiVx9NbclgvzNSTkrrQ9FL6QQYuSzD7a9w2uqloN4JNAAfXa1FENZr0uQOI-dDWeqjbTJ7NEoj6JyaGiCNViGcSAvONk_Kv9i1iBkxgJlZbFbeBiQxggjTdPURaPwo3gsGiMTf3xqRGeYpf9B4sqFDejGuRWQIiFy5-JyoAW4jKR5A24G0jZaF1tV96ySveBRAplbYnRsJR-Vz1N6V1St8B3iiekUL3faCk3oC3Q1jvkqxGEYPR2zmlNa7DM1Rq9FPK3Mc-Q96Qav42lN4NzzDJippBmejZcHFkjoWEDTLApmxLWzE3WHGDMbXQLVm5BvACbmvTtENiUl__YGNOkkBgvm1chOO5FdmZ5wQ6ByueWWCYapHESXROEk3mWVZzrZ6o7wvH4UTaecV0X-CWprP4kEjvKBF28FbRG5HtDDJ-f5bUzT-toP5EXqaewdEy5to5bGGGe8VbXr9SjnzER5NzWmTl_0E4G2aSveXtDNb54jOL8KYNNm9k5dQwuNHYRCady9Gx3sF4_nmoZR48eOKUI7EhOAj-FScYjqzAh9hpGo1iE-p8I5LOYjTnxUt9pZ6WHDlDf8c=w400-h533-no"/>
-]]></description>
+		<description><![CDATA[<p>2016/07/29 ひまわり畑</p><img src="https://lh3.googleusercontent.com/_FRS6IEAhHm90b62qhwHjOiVx9NbclgvzNSTkrrQ9FL6QQYuSzD7a9w2uqloN4JNAAfXa1FENZr0uQOI-dDWeqjbTJ7NEoj6JyaGiCNViGcSAvONk_Kv9i1iBkxgJlZbFbeBiQxggjTdPURaPwo3gsGiMTf3xqRGeYpf9B4sqFDejGuRWQIiFy5-JyoAW4jKR5A24G0jZaF1tV96ySveBRAplbYnRsJR-Vz1N6V1St8B3iiekUL3faCk3oC3Q1jvkqxGEYPR2zmlNa7DM1Rq9FPK3Mc-Q96Qav42lN4NzzDJippBmejZcHFkjoWEDTLApmxLWzE3WHGDMbXQLVm5BvACbmvTtENiUl__YGNOkkBgvm1chOO5FdmZ5wQ6ByueWWCYapHESXROEk3mWVZzrZ6o7wvH4UTaecV0X-CWprP4kEjvKBF28FbRG5HtDDJ-f5bUzT-toP5EXqaewdEy5to5bGGGe8VbXr9SjnzER5NzWmTl_0E4G2aSveXtDNb54jOL8KYNNm9k5dQwuNHYRCady9Gx3sF4_nmoZR48eOKUI7EhOAj-FScYjqzAh9hpGo1iE-p8I5LOYjTnxUt9pZ6WHDlDf8c=w400-h533-no"/>]]></description>
 		<LookAt>
 			<longitude>139.4027555555556</longitude>
 			<latitude>35.55589666666667</latitude>
@@ -114,7 +173,7 @@
 			<range>1553.453124731282</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_icon</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -133,7 +192,7 @@
 			<range>1462.818207732478</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_icon0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -152,7 +211,7 @@
 			<range>1462.818189885564</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_icon0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -171,7 +230,7 @@
 			<range>928.1543104665443</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_icon0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -190,7 +249,7 @@
 			<range>1067.986164404557</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_icon0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -209,7 +268,7 @@
 			<range>1300.05008338149</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_icon0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -228,7 +287,7 @@
 			<range>2248.608524773088</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_icon0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -247,7 +306,7 @@
 			<range>2249.139255757078</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_icon0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -266,7 +325,7 @@
 			<range>2260.96334372102</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_icon0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -285,7 +344,7 @@
 			<range>2260.949081728824</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_icon0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -304,7 +363,7 @@
 			<range>2260.949081728824</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_icon0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -323,7 +382,7 @@
 			<range>2260.949081728824</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_icon0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -342,7 +401,7 @@
 			<range>2150.902793856786</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_icon0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -361,7 +420,7 @@
 			<range>2163.387260855285</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_icon0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -380,7 +439,7 @@
 			<range>2187.798244460457</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_icon0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -399,7 +458,7 @@
 			<range>2163.387971070582</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_icon0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
@@ -418,7 +477,7 @@
 			<range>2163.387971070582</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_track</styleUrl>
+		<styleUrl>#msn_icon0</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
